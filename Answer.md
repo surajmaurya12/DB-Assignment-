@@ -1,0 +1,3 @@
+Answer 1: the relationship between "Product" and "Product_Category" is a one-to-many relationship, where one category can have many products.
+
+Answer 2: One way to ensure that each product in the "Product" table has a valid category assigned to it is by using foreign key constraints in the database schema. Specifically, you can create a foreign key constraint on the "category_id" column in the "product_inventory" table that references the "id" column in the "product_category" table.
